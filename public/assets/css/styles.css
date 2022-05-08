@@ -53,12 +53,13 @@ nav {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+  font-size: 2rem;
 }
 
 .note-title {
-  height: 50px;
+  height: 70px;
   margin-top: 13px;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .note-title:read-only,
