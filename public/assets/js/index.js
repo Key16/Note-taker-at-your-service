@@ -53,7 +53,7 @@ const deleteNote = (id) =>
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
-  if (activeNote.note_id) {
+  if (activeNote.id) {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
@@ -85,7 +85,7 @@ const handleNoteDelete = (e) => {
   const note = e.target;
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).note_id;
 
-  if (activeNote.note_id === noteId) {
+  if (activeNote.id === noteId) {
     activeNote = {};
   }
 
@@ -141,9 +141,9 @@ const renderNoteList = async (notes) => {
       const delBtnEl = document.createElement('i');
       delBtnEl.classList.add(
         'fas',
-        'fa-trash-alt',
+        'fa-skull',
         'float-right',
-        'text-danger',
+        // 'text-danger',
         'delete-note'
       );
       delBtnEl.addEventListener('click', handleNoteDelete);

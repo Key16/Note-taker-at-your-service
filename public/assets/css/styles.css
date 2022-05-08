@@ -3,6 +3,30 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Marck Script', sans-serif;
+  background-image: url("https://i.ytimg.com/vi/0kwBVKYh22g/maxresdefault.jpg");
+
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(154, 180, 203);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(154, 180, 203);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(154, 180, 203);
+}
+
+nav {
+  background-color:#b55987;
+}
+
+.container {  color:white;
 }
 
 .save-note {
@@ -18,10 +42,11 @@ body {
 
 .note-textarea,
 .note-title {
-  color: #000000;
+  color: #ffffff;
   width: 100%;
   outline: none;
   border: none;
+  background-color: rgba(240, 248, 255, 0);
 }
 
 .note-textarea {
@@ -38,7 +63,7 @@ body {
 
 .note-title:read-only,
 .note-textarea:read-only {
-  color: #757575;
+  color: #ffffff;
 }
 
 .list-container .card {
