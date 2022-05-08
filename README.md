@@ -6,6 +6,9 @@ Write down all your spells in one conveniently located digital space, best wizar
 
 The application is deployed on Heroku. Please visit this [link](https://infinite-fjord-02475.herokuapp.com/) to view your magic note taker.
 
+![IndexPage](./assets/Indexpage.png)
+![NotesPage](./assets/Notespage.png)
+
 ## Table of Contents
 
 * [Usage](#usage)
