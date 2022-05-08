@@ -11,16 +11,29 @@ The application is deployed on Heroku. Please visit this [link](https://infinite
 
 ## Table of Contents
 
+* [Installation](#installation)
 * [Usage](#usage)
 * [Licenses](#licenses)
 * [Contributing](#contributing)
 * [Questions](#questions)
 
+## Installation 
+Please run the following command line to install the neccesary packages
+```
+npm i
+```
 
 ## Usage
 How to use this code
 
 Head over to https://infinite-fjord-02475.herokuapp.com/ and get started on your first spell!
+
+If you would like to run it in your local host, run the following command
+
+```
+npm start
+```
+
 
 ## Licenses
 This project is under the MIT License.
